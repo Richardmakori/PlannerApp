@@ -43,7 +43,7 @@ class TaskAdapter(
             tvTime.text = task.time
             tvPriority.text = task.priority.label
 
-            // Show/hide description
+       
             if (task.description.isNotBlank()) {
                 tvDescription.visibility = View.VISIBLE
                 tvDescription.text = task.description
@@ -51,7 +51,7 @@ class TaskAdapter(
                 tvDescription.visibility = View.GONE
             }
 
-            // Strikethrough effect for completed tasks
+         
             if (task.isCompleted) {
                 tvTitle.paintFlags = tvTitle.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
                 tvTitle.alpha = 0.5f
@@ -66,12 +66,11 @@ class TaskAdapter(
                 itemView.alpha = 1f
             }
 
-            // Priority color
+       
             val priorityColor = ContextCompat.getColor(itemView.context, task.priority.colorRes)
             priorityIndicator.setBackgroundColor(priorityColor)
             tvPriority.setTextColor(priorityColor)
 
-            // Listeners
             checkBox.setOnCheckedChangeListener(null)
             checkBox.isChecked = task.isCompleted
             checkBox.setOnCheckedChangeListener { _, isChecked ->
