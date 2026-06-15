@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         setupRecyclerView()
         setupFab()
         updateHeader()
-        loadSampleTasks() // Load demo tasks on first launch
+        loadSampleTasks()
     }
 
     private fun initViews() {
