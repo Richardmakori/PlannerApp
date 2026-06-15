@@ -95,7 +95,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun refreshList() {
-        // Sort: incomplete tasks first, then by time, completed at bottom
+      
         val sorted = taskList.sortedWith(compareBy({ it.isCompleted }, { it.time }))
         taskAdapter.submitList(sorted.toList())
 
