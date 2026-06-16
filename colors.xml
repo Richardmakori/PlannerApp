@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Brand -->
+   
     <color name="accent">#6C63FF</color>
     <color name="accent_light">#EAE9FF</color>
 
-    <!-- Backgrounds -->
+  
     <color name="background">#F8F8FC</color>
     <color name="card_background">#FFFFFF</color>
     <color name="card_stroke">#EBEBF0</color>
     <color name="input_background">#F2F2F7</color>
 
-    <!-- Text -->
+   
     <color name="text_primary">#1A1A2E</color>
     <color name="text_secondary">#8A8A9A</color>
 
-    <!-- Priority -->
+   
     <color name="priority_low">#34C759</color>
     <color name="priority_medium">#FF9F0A</color>
     <color name="priority_high">#FF3B30</color>
 
-    <!-- Misc -->
+    
     <color name="white">#FFFFFF</color>
     <color name="checkbox_tint">#6C63FF</color>
     <color name="bottom_sheet_bg">#FFFFFF</color>
