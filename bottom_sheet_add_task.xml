@@ -85,7 +85,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Time Picker -->
+    
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnPickTime"
         android:layout_width="match_parent"
