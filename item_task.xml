@@ -23,7 +23,7 @@
         android:paddingStart="0dp"
         android:paddingEnd="8dp">
 
-        <!-- Priority indicator bar -->
+      
         <View
             android:id="@+id/viewPriorityIndicator"
             android:layout_width="4dp"
@@ -31,7 +31,7 @@
             android:layout_marginStart="12dp"
             android:background="@drawable/shape_priority_bar" />
 
-        <!-- Checkbox -->
+     
         <CheckBox
             android:id="@+id/cbTaskComplete"
             android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
             android:buttonTint="@color/checkbox_tint"
             android:padding="0dp" />
 
-        <!-- Task content -->
+      
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -76,7 +76,6 @@
 
         </LinearLayout>
 
-        <!-- Right side: time + priority + delete -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
